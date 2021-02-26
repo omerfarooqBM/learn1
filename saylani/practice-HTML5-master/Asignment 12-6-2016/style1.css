@@ -1,0 +1,280 @@
+body{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	background-color:rgba(123,132,123,0.1);
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#list li{
+    position: relative;
+    top:0.2em;
+    margin:0.5em;
+    padding: 0px;
+    display: inline-block;
+    font-size:120%;
+
+}
+#a1{
+    text-decoration: none;
+    transition: all 0.4s;
+	cursor:pointer;
+	color:black;
+	padding:10px;
+}
+#list a:hover{
+	background-color:rgba(123,123,123,0.2);
+	border-radius:7px;
+}
+.align{
+	text-align:right;
+	padding-right:10em;
+}
+.img1{
+	background-image: url(light_bulb.jpg);
+	 background-repeat: repeat-y;
+	width:100%;
+	height:18em;
+}
+.container1{
+	color:white;
+	padding-top:3em;
+	line-height:1em;
+	font-family:;
+}
+#h1{
+	font-size:4em;
+	padding-left:100px;
+}
+#text1{
+	font-size:1.3em;
+	padding-left:100px;
+}
+.btn1{
+	position:absolute;
+	text-align:center;
+	font-size:1.5em;
+	background-color:orange;
+	margin-left:4.5em;
+	border-radius:5px;
+	padding:15px;
+}
+.btn1:hover{
+	background-color:#FF8C00;
+}
+#a2{
+	text-decoration:none;
+	color:white;
+}
+#sup{
+	line-height:10px;
+}
+.h1{
+	margin-top:50px;
+	color:#dd845a;
+	font-size:40px;
+}
+.text1{
+	color:gray;
+	font-size:18px;
+	font-family:arial;
+	width:900px;
+	line-height:27px;
+}
+
+.h3{
+	padding-top:85px;
+	font-size:28px;
+}
+.item-1{
+	background:url('mung_beans.jpg');
+}
+.item-2{
+	background:url('coffee_beans_1.jpg');
+}
+.item-3{
+	background:url('grapes.jpg');
+}
+.promo-item{
+	width:27.55em;
+	height:13em;
+}
+.a3{
+	text-decoration:none;
+	color:white;
+	text-shadow: 1px 1px 8px black;
+}
+#rwap{
+	width:85%;
+	height:450px;
+	padding-top:10px;
+	padding-left:140px;
+}
+.box1{
+	width:250px;
+	height:auto;
+	border:1px solid #DCDCDC;
+	float:left;
+	box-shadow:0px 1px 1px gray;
+	border-radius:10px;
+}
+.box2{
+	width:250px;
+	height:auto;
+	border:1px solid #DCDCDC;
+	float:left;
+	margin-left: 20px;
+	box-shadow:0px 1px 1px gray;
+	border-radius:10px;
+}
+.box3{
+	width:250px;
+	height:auto;
+	border:1px solid #DCDCDC;
+	float:left;
+	box-shadow:0px 1px 1px gray;
+	border-radius:10px;
+}
+.box4{
+	width:250px;
+	height:auto;
+	border:1px solid #DCDCDC;
+	float:left;
+	margin-left: 20px;
+	box-shadow:0px 1px 1px gray;
+	border-radius:10px;
+}
+.product1{
+	width:230px;
+	padding-top:5px;
+	padding-left:10px;
+}
+.product-heading{
+	color:#dd845a;
+	padding-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+.product-p{
+	padding-left:10px;
+	font-family:;
+	padding-left:10px;
+}
+
+#img2{
+	margin:10px auto 10px auto;
+	width:500px;
+	height:340px;
+	border-radius:50%;	
+}
+.find{
+	text-align:center;
+	color:#dd845a;
+	font-size:2em;
+	font-family: Helvetica;
+}
+#us{
+	color:#dd845a;
+	font-size:1.5em;
+	font-family: Helvetica;
+}
+
+#img3{
+	width:100%;
+	height:300px;
+}
+.lead{
+	line-height:28px;
+	color:gray;
+	font-size:21px;
+}
+#footer{
+	width:100%;
+	height:350px;
+	background-color:#F0FFFF;
+}
+.footer1{
+	margin:30px 70px;
+	width:250px;
+	height:200px;
+	float:left;
+	
+}
+.footer2{
+	margin:30px 70px;
+	width:400px;
+	height:200px;
+	float:left;
+}
+.foot-heading{
+	padding-left:40px;
+	font-size:20px;
+}
+#foot li{	
+	display:block;
+	line-height:20px;
+	font-family:arial;
+}
+.footer-list{
+	text-decoration: none;
+	color:gray;
+}
+.footer-list:hover{
+	text-decoration:underline;
+}
+.foot-heading1{
+	padding-left:40px;
+	font-size:20px;
+}
+#lable1{
+	color:gray;
+	padding-left:40px;
+}
+.input-text{
+	margin-top:10px;
+	margin-left:40px;
+	width:250px;
+	height:30px;
+	padding-left:10px;
+}
+.subs{
+	text-align:center;
+	width:80px;
+	height:35px;
+	color:white;
+	background-color:orange;
+	border:hidden;
+	border-radius:2px;
+	cursor:pointer;
+}
+.subs:hover{
+	background-color:#FF8C00;
+}
+.footer-link1{
+	padding-right:2px;
+	text-decoration:none;
+	color:orange;
+	border-right:1px solid gray;
+}
+.footer-link1:hover{
+	text-decoration:underline;
+}
+.footer-link2{
+	padding-right:2px;
+	text-decoration:none;
+	color:orange;
+	border-right:1px solid gray;
+}
+.footer-link2:hover{
+	text-decoration:underline;
+}
+.footer-link3{
+	text-decoration:none;
+	color:orange;
+	text-decoration:none;
+}
+.footer-link3:hover{
+	text-decoration:underline;
+}
+.copy{
+	color:gray;
+}

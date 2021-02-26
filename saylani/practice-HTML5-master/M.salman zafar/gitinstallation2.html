@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="keyword" content="GIT,HTML5,CSS3"/>
+	<meta name="discription" content="What is git, how to install git, how to work in git, 
+	how to use commit in git, how to use push and pull request in git"/>
+	<meta http-equiv="refresh" content="60"/>
+	<meta name="auther" content="Salman zafar"/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Advanced Features</title>
+	<link  rel="stylesheet" href="listcss.css"/>
+	<style>
+		div{
+				text-family:arial;
+				border-radius: 10px;
+				background-color:#E6E6FA;
+				width: 600px;
+				padding: 20px;
+				border: 10px solid #FFDAB9;
+				margin: 55px;
+				-webkit-box-shadow: 0 3px 8px rgba(0,0,0, .25);
+		}
+		#butt{
+			width:100px;
+			height:40px;
+			position:relative;
+			top:50px;
+			left:1000px;
+			display: inline;
+			border-radius: 5px;
+			border: 2px solid #F5F5DC;
+			background: #F0FFFF;
+			padding:3px;
+			margin: 2px;
+			box-shadow: 1px 1px 1px #888888;
+		}
+		.pic{
+			width:300px;
+			height:200px;
+		}
+		.picbig{
+			position: absolute;
+			width:0px;
+			-webkit-transition:  width 0.3s linear 0s;
+			transition: width 0.3s linear 0s;
+			z-index:10;
+		}
+		.pic:hover + .picbig{
+			width:600px;
+		}
+	</style>
+</head>
+<body style="height:1300px">
+	<form class="headerx"></form>
+	<section  class="header" >
+		<font size="7" ><b>
+		<marquee scrollamount="5" id="img1" style="color:white">SKY NET</marquee></b></font>
+		
+		<br/>
+		<ul id="sample">
+			<li id="kid1"><a href="list.html">HOME</a></li>
+			<li id="kid1"><a href="git.html">GIT</a></li>
+			<li id="kid1"><a href="htmlfile.html">HTML</a></li>
+			<li id="kid1"><a href="css.html">CSS</a></li>
+			<li id="kid1"><a href="contact.html">About us</a></li>
+		</ul>
+	
+	</section>
+	<section id="img2" class="body">
+		<img src="images/git1.png" width="480" height="180"/><br><br>
+	</section>
+	<div>
+		<h3 style="color:blue">Running our first Git command</h3>
+			<figure>
+				Now, we have to test our installation. Is Git ready to rock? Let's find out!<br/><br/>
+				<img class="pic" src="images/i4.png" alt="pic4"/>
+				<img class="picbig" src="images/i4.png" alt="pic4"/>
+				<br/>
+				<figcaption>
+					First we see that, when we right click every where we see that those options.
+				</figcaption>
+				</figure>
+				<figure>
+					<img class="pic" src="images/i5.PNG" alt="pic5"/>
+					<img class="picbig" src="images/i5.PNG" alt="pic5"/>
+					<br/>
+				<figcaption>
+					Open a prompt and simply type git (or the equivalent, git --help), as shown in
+					the following screenshot:
+				</figcaption>
+				</figure>
+				<h3 style="color:blue">Setting up a new repository</h3>
+				<figure>
+					<p>The first step is to set up a new repository (or repo, for short). A repo is a container
+					for your entire project; every file or subfolder within it belongs to that repository,
+					in a consistent manner. Physically, a repository is nothing other than a folder that
+					contains a special .git folder, the folder where the magic happens.
+					<br/><br/>Let's try to make our first repo. Choose a folder you like, and type the git init
+					command, as shown here:</p>
+					<img class="pic" src="images/i6.PNG" alt="pic6"/>
+					<img class="picbig" src="images/i6.PNG" alt="pic6"/>
+					<br/>
+				</figure>
+				
+				<figure>
+					<p>Whoa! What just happened? Git created a .git subfolder. The subfolder (normally
+					hidden in Windows) contains some files and folders, as shown in the next screenshot:</p>
+					<img class="pic" src="images/i7.PNG" alt="pic7"/>
+					<img class="picbig" src="images/i7.PNG" alt="pic7"/>
+					<br/>
+				<figcaption>
+					<p>At this point, it is not important for us to understand what is inside this folder. The
+					only thing you have to know is that you do not have to touch it, ever! If you delete it
+					or if you modify files inside by hand, you could get into trouble.</p>
+				</figcaption>
+				</figure>
+		</font>
+	</div>
+	<form >
+		<font size="5">
+			<a id="butt" href="gitinstallation3.html">Next Page</a>
+			<a id="butt" href="gitinstallation.html">Back</a>
+		</font>
+	</form>
+	
+	
+	<form id="ref1" class="body2">
+		<font size="4">Create by: <b>Muhammad Salman Zafar</b><br>
+		Send email: <a href="mailto:m.salman.zafar292@gmail.com"><strong>Email</strong></a>.or
+		<br>Contact: +923422746280</font>
+		
+	</form>
+
+</body>
+</html>

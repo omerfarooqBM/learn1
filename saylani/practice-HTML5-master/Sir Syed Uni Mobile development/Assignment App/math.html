@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Math  Expressions</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+</head>
+
+<body>
+    <div class="container-flex navbar header-box col-md-12 text-center">
+        <h2 class="heading">JavaScript</h2>
+        <h2 class="heading1" id="top">Important Questions & Answers</h2>
+    </div>
+    <!--<div class="col-md-12 col-md-offset-11 up-button">
+        <i id="#top" class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+    </div>-->
+    <div class="container">
+        <div class="col-md-12 list text-center">
+            <ul>
+                <li><a href="index.html" class="btn btn-info">1</a></li>
+                <li><a href="numbers.html" class="btn btn-info">2</a></li>
+                <li><a href="legal.html" class="btn btn-info">3</a></li>
+                <li><a href="math.html" class="btn btn-info">4</a></li>
+                <li><a href="prompt.html" class="btn btn-info">5</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container box-0">
+        <div class="col-md-12 text-center">
+            <h2>Math Expressions</h2>
+        </div>
+        <section>
+            <div class="class" id="feedback">
+                <h3>Q.1:</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12 box-1">
+                    <blockquote>
+                        <p>Write a program that take two numbers & add them in a new variable. Show the result in your browser.</p>
+                        <div class="col-md-1 ans">A: </div>
+                        <div class="container">
+                            <!-- Trigger the modal with a button -->
+
+                            <div class="col-md-11 col-md-offset-1">
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#signUp">Run</button>
+                                <button type="button" class="btn btn-info" onClick="SumCode()" >Code</button>
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="signUp" role="dialog">
+                                <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title"></h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <form name="myForm">
+                                                        <div class="form-group">
+                                                            <label for="number1">Enter First Number:</label>
+                                                            <div id="checkName"></div>
+                                                            <input id="number1" type="text" class="form-control" name="number1" placeholder="Enter Name" />
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="number2">Enter Second Number:</label>
+                                                            <div id="checkEmail"></div>
+                                                            <input id="number2" name="number2" type="text" class="form-control" placeholder="Enter Name" />
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning" data-dismiss="modal">Cencel</button>
+                                            <button type="button" class="btn btn-info" onclick="checkNumber()">Ok</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="class" id="feedback">
+                <h3>Q.2:</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12 box-1">
+                    <blockquote>
+                        <p>Repeat task1 for subtraction, multiplication, division & modulus. E.g.</p>
+                        <div class="col-md-1 ans">A: </div>
+                        <div class="col-md-10 ans">
+                            var x = +prompt("Please Enter your First Value","1st");<br/> var y = +prompt("Please Enter your
+                            Second Value","2nd");<br/> var sum = x+y;<br/> alert("Sum of "+ x +" and "+y+ " is"+ sum);<br/>                            var mul = x*y;<br/> alert("Multiplication of "+ x +" and "+y+ " is"+ mul);<br/> var sub = x-y;<br/>                            alert("Subtraction of "+ x +" and "+y+ " is"+ sub);<br/> var divi = x*y;<br/> alert("Division
+                            of "+ x +" and "+y+ " is"+ divi);<br/> var mod = x*y;<br/> alert("Modulus of "+ x +" and "+y+
+                            " is"+ mod);<br/>
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="class" id="feedback">
+                <h3>Q.3:</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12 box-1">
+                    <blockquote>
+                        <p>Do the following using JS Mathematic Expressions.
+                            <ol>
+                                <li>Declare a variable.</li>
+                                <li>Show the value of variable in your browser like “Value after variable declaration is: ??”.</li>
+                                <li>Initialize the variable with some number.</li>
+                                <li>Show the value of variable in your browser like “Initial value: 3”.</li>
+                                <li>Increment the variable.</li>
+                                <li>Show the value of variable in your browser like “Value after increment is: 4”.</li>
+                                <li>Add 7 to the variable.</li>
+                                <li>Show the value of variable in your browser like “Value after addition is: 11”.</li>
+                                <li>Decrement the variable.</li>
+                                <li>Show the value of variable in your browser like “Value after decrement is: 10”.</li>
+                                <li>Show the remainder after dividing the variable’s value by 3. Output : “The remainder is :
+                                    1”
+                                </li>
+                            </ol>
+                        </p>
+                        <div class="col-md-1 ans">A: </div>
+                        <div class="col-md-10 ans">
+                            var decVari;<br/> document.write("Value after variable declaration is: "+ decVari);<br/> decVari
+                            = 3;<br/> document.write("Initial value: "+ decVari);<br/> decVari = ++decVari;<br/> document.write("Value
+                            after increment is: "+ decVari);<br/> decVari = decVari + 7;<br/> document.write("Value after
+                            addition is: "+ decVari);<br/> decVari = --decVari;<br/> document.write("Value after decrement
+                            is: "+ decVari);<br/> decVari= decVari % 3;<br/> document.write("The remainder is : "+ decVari);
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="class" id="feedback">
+                <h3>Q.4:</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12 box-1">
+                    <blockquote>
+                        <p>Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable & calculate
+                            the cost of buying 5 tickets to a movie. Example output:</p>
+                        <div class="col-md-1 ans">A: </div>
+                        <div class="col-md-10 ans">
+                            var ticket = +prompt("One Ticket Price is 600 PKR For a Movie. \n How many you have..? ","Number");<br/>                            var total = 600 * ticket;<br/> document.write("Total cost to buy " +ticket+" ticket to a movie
+                            is: "+ total +" PKR");<br/>
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="class" id="feedback">
+                <h3>Q.5:</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12 box-1">
+                    <blockquote>
+                        <p>Write a script to display multiplication table of any number in your browser. E.g.</p>
+                        <div class="col-md-1 ans">A: </div>
+                        <div class="col-md-10 ans">
+                            var table = +prompt("Which number would you like to Multiplayer..!","Number");<br/> for(var i
+                            = 1; i
+                            <=1 0; i++){<br/> var a = table * i;<br/> document.write(table +" x "+ i +" = " +a);<br/> }
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="class" id="feedback">
+                <h3>Q.6:</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12 box-1">
+                    <blockquote>
+                        <p><strong> Temperature Converter:</strong> It’s hot out! Let’s make a converter based on the steps
+                            here.
+                            <ol>
+                                <li>Store a Celsius temperature into a variable.</li>
+                                <li>Convert it to Fahrenheit & output “NNoC is NNoF”.</li>
+                                <li>Now store a Fahrenheit temperature into a variable.</li>
+                                <li>Convert it to Celsius & output “NNoF is NNoC”.</li>
+                            </ol>
+                        </p>
+                        <div class="col-md-1 ans">A: </div>
+                        <div class="col-md-10 ans">
+                            var temCelsius = +prompt("Please Enter Celsius Temprature: ","Number");<br/> var temInFahrenheit
+                            = (temCelsius * 9/5) + 32;<br/> document.write(temCelsius+ " &#8451; " +" is " +temInFahrenheit+
+                            " &#8457; ");<br/>
+                            <br/> var temFahrenheit = +prompt("Please Enter Fahrenheit Temprature: ","Number");<br/> var
+                            temInCelsius = (temFahrenheit - 32) * 5/9;<br/> document.write(temFahrenheit+ " &#8457; " +"
+                            is " +temInCelsius+ " &#8451; ");
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="class" id="feedback">
+                <h3>Q.6:</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12 box-1">
+                    <blockquote>
+                        <p>Write a program to implement checkout process of a shopping cart system for an e-commerce website.
+                            Store the following in variables
+                            <ol>
+                                <li>Price of item 1</li>
+                                <li>Price of item 2</li>
+                                <li>Ordered quantity of item 1</li>
+                                <li>Ordered Quantity of item 2</li>
+                                <li>Shipping charges</li>
+                            </ol>
+                            Compute the total cost & show the receipt in your browser.</p>
+                        <div class="col-md-1 ans">A: </div>
+                        <div class="col-md-10 ans">
+                            <ol>
+                                <li>T-Shirt Price: Rs.400</li>
+                                <li>Jeans Price: Rs.1000</li>
+                                <li>Kurta Price: Rs.800</li>
+                                <li>Dress Pent Price: 1500</li>
+                                <li>Coat Price: Rs.2500</li>
+                            </ol>
+                            <div class="col-md-12 col-md-offset-1">
+                                <button type="submit" class="btn btn-success" onclick="shop()">Click Me</button>
+                            </div>
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="script/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-bottom:30px;
+    background-color: lightgray;
+}
+#inptButn{
+    color: white;
+    background-color: blue;
+    border: hidden;
+    border-radius: 4px;
+    padding: 10px 15px 10px 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+label span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+label input{
+    width: 250px;
+    height: 15px;
+    font-size: 1em;
+    padding: 6px;
+    color: white;
+}
+form span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+form #email{
+    width: 250px;
+    height: 15px;
+    font-size: 1em;
+    padding: 6px;
+    color: white;
+}
+form #zip{
+    width: 200px;
+    height: 13px;
+    font-size: 1em;
+    padding: 6px;
+    color: white;
+}
+form #city{
+    width: 200px;
+    height: 13px;
+    font-size: 1em;
+    padding: 6px;
+    color: black;
+}
+.hidden {
+    display: none;
+}
+#rot{
+    position: relative;
+    width: 300px;
+    height: auto;
+    top: 20px;
+    cursor: pointer;
+}
+.rotate {
+    -ms-transform: rotate(7deg); 
+    -webkit-transform: rotate(6deg); 
+    transform: rotate(7deg);
+    transition: 1.5s;
+}

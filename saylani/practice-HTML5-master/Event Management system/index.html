@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Event Managment System</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+</head>
+
+<body onload="dateFunction()">
+    <div class="container-flex Main-div">
+        <div class="container-flex">
+            <nav class="navbar header ">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand logo" href="#">EMS</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active "><a class=" link-1" href="index.html">Home</a></li>
+                        <li><a class=" link-1" href="./Pages/gallery.html">Gallery</a></li>
+                        <li><a class=" link-1" href="./Pages/Contact.html">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right login ">
+                        <li>
+                            <a class=" link-2" href="#" data-toggle="modal" data-target="#signUp">
+                                <span class="glyphicon glyphicon-user ">
+                                    </span> Sign Up</a>
+                        </li>
+                        <li>
+                            <a class=" link-2" href="#" data-toggle="modal" data-target="#signIn">
+                                <span class="glyphicon glyphicon-log-in ">
+                                    </span> Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Trigger the modal with a button -->
+        <div class="container">
+            <!-- Trigger the modal with a button -->
+            <!-- Modal -->
+            <div class="modal fade" id="signIn" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2 class="modal-title">Log In</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form name="myForm">
+                                        <div class="form-group">
+                                            <label for="email">Enter Email:</label>
+                                            <input id="email" type="email" class="form-control" name="email" placeholder="Enter Email" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password">Enter Password:</label>
+                                            <input id="password" name="password" type="password" class="form-control" placeholder="Enter password" />
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning" data-dismiss="modal">Cencel</button>
+                            <button type="button" class="btn btn-info" onclick="checkNumber()">Ok</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="signUp" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2 class="modal-title">Sign Up</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form name="myForm">
+                                        <div class="form-group">
+                                            <label for="email">Enter Email:</label>
+                                            <input id="email" type="email" class="form-control" name="email" placeholder="Enter Email" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password">Enter Password:</label>
+                                            <input id="password" name="password" type="password" class="form-control" placeholder="Enter password" />
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning" data-dismiss="modal">Cencel</button>
+                            <button type="button" class="btn btn-info" onclick="checkNumber()">Ok</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="text-center">
+                <h1 class="heading">Event Managment System</h1>
+                <br/>
+                <br/>
+            </div>
+        </div>
+
+
+        <div class="container col-md-10 col-md-offset-1">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner ">
+                    <div class="item active ">
+                        <img src="./images/birthday-packages.jpg" alt="birthday" style="width:100%; height:350px;">
+                        <div class="carousel-caption">
+                            <h3>Happy Birthday</h3>
+                            <!--<p>LA is always so much fun!</p>-->
+                        </div>
+                    </div>
+
+                    <div class="item ">
+                        <img src="./images/Nochevieja_Valencia.jpg" alt="Party" style="width:100%; height:350px;">
+                        <div class="carousel-caption">
+                            <h3>Lets Enjoy Party</h3>
+                            <!--<p>LA is always so much fun!</p>-->
+                        </div>
+                    </div>
+
+                    <div class="item ">
+                        <img src="./images/best-wedding-stage.jpg" alt="wedding" style="width:100%; height:350px;">
+                        <div class="carousel-caption">
+                            <h3>Wedding Stage</h3>
+                            <!--<p>LA is always so much fun!</p>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+            <br/>
+            <br/>
+        </div>
+        <div class="container subs-box text-center">
+            <h3>Subscribe for more Information</h3>
+            <p>Enter your Name and Email</p>
+
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="subscription" class="col-sm-3 control-label" id="label">Subscribe</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="subscription" placeholder="Your Name" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label" id="label">Email Address</label>
+                    <div class="col-sm-6">
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-warning">Subscribe </button>
+                </div>
+            </form>
+        </div>
+
+        <!--Events Action-->
+        <div class="container box4">
+            <section>
+                <div class="class" id="feedback">
+                    <h2>You can. <small>Select those events</small></h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 ">
+                        <blockquote>
+                            <a href="./Pages/birthday.html"><img class="birth" alt="Birthday"></a>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4">
+                        <blockquote>
+                            <a href="./Pages/party.html"><img class="party" alt="Party"></a>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4">
+                        <blockquote>
+                            <a href="./Pages/wedding.html"><img class="wedding" alt="Wedding"></a>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container box4">
+            <section>
+                <div class="row">
+                    <div class="col-lg-4 ">
+                        <blockquote>
+                            <a class="links" href="./Pages/seminar.html"><img class="Seminar" alt="Seminar"></a>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4">
+                        <blockquote>
+                            <a class="links" href="./Pages/cermony.html"><img class="ceremony " alt="Open Ceremony  Managment"></a>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4">
+                        <blockquote>
+                            <a class="links" href="./Pages/conference.html"><img class="conference" alt="Conference"></a>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        
+        <div class="container box4">
+            <div class="col-md-12">
+                <img class="stage" src="./images/stage.png" alt="Stage"/>
+                <div class="col-md-5 col-md-offset-4 Event">
+                    <h3>Celebrate Your Event</h3>
+                </div>            
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="./bootstrap/js/bootstrap.min.js"></script>
+        <script src="./timer.js"></script>
+</body>
+
+</html>

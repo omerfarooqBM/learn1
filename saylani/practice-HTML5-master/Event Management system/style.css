@@ -1,0 +1,136 @@
+.header{
+    background-color: #009688;
+    /*height: 70px;*/
+    /*padding-top: 10px;*/
+    box-shadow: 0px 3px 4px gray;
+}
+.logo{
+    color: white;
+    font-size: 1.8em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.logo:hover{
+    color: black;
+}
+.link-1{
+    color: white;
+    font-size: 1.5em;
+}
+.link-2{
+    color: white;
+    font-size: 1.1em; 
+}
+.login{
+    margin-right: 50px;   
+}
+.link-1:hover{
+    background-color: white !important;
+    color: black; 
+    /*height: 70px;*/
+    /*margin-top: -10px;
+    padding: 20px;*/
+    
+}
+.active{
+    background-color: black !important;
+    /*height: 70px;*/
+    /*margin-top: -10px;
+    padding: 10px;*/
+}
+
+.Main-div{
+    background-color: #b3e5e1 ;
+}
+
+.birth{
+    height: 170px;
+    width: 100%;
+    background-image: url('./images/Happy-birthday-to-you-wishes-wallpapers.jpg');
+    background-size: 100% 170px ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    /*margin-right: 15px;*/
+}
+.party{
+    height: 170px;
+    width: 100%;
+    background-image: url('./images/maxresdefault.jpg');
+    background-size: 100% 170px ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    /*margin-right: 15px;*/
+    
+}
+.wedding{
+    height: 170px;
+    width: 100%;
+    background-image: url('./images/pakistani_weddings-1024x683.jpg');
+    background-size: 100% 170px ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    /*margin-right: 15px;*/
+}
+.Seminar{
+    height: 170px;
+    width: 100%;
+    background-image: url('./images/Seminar-Conference.jpg');
+    background-size: 100% 170px ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.ceremony {
+    height: 170px;
+    width: 100%;
+    background-image: url('./images/ceremony.jpg');
+    background-size: 100% 170px ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.conference {
+    height: 170px;
+    width: 100%;
+    background-image: url('./images/featured-speaker.jpg');
+    background-size: 100% 170px ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 2.8em;
+    font-weight: bold;
+    text-shadow: 10px 6px 6px gray;
+    transform: scaleX(2);
+    transform: scaleY(1.5);
+    letter-spacing: 0.1em;
+    line-height: 50px;
+    color: black;
+}
+
+
+blockquote{
+    border: hidden !important;
+}
+.count{
+    font-size: 2em;
+    margin-right: 40px;
+}
+.stage{
+    width: 100%;
+}
+.Event{
+    position: relative;
+    top: -190px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 10px 6px 6px gray;
+    transform: scaleX(2);
+    transform: scaleY(1.5);
+    letter-spacing: 0.1em;
+    line-height: 50px;
+    color: black;
+}
+.celebrated{
+    height: 180px;
+    width: 100%;
+}

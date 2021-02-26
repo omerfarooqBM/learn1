@@ -1,0 +1,264 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+.header-box{
+    width: 100%;
+    /*border: 1px solid red;*/
+    background-color: rgb(190, 16, 17);
+    height: 55.5px;
+    box-shadow: 0px 5px 8px gray;
+}
+.logo{
+    background-image: url(images/logo-main.png);
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    background-size: 100% 126px;    
+    width: 120px;
+    height: 126px;
+    /*border: 2px solid blue;*/
+    float: left;
+    margin-left: 75px; 
+}
+.menu{
+    /*border: 1px solid blue;*/
+    height: 55.5px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul .list-1{
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    height: 55.5px;
+    line-height: 55.5px;
+    width: 65px;
+    float: left;
+    color: rgb(190, 16, 17);
+    background-color: white;
+}
+.menu ul .list-1:hover{
+    color: rgb(190, 16, 17);
+    background-color: white;
+    cursor: pointer
+}
+#icon1{
+    font-size: 2.1em;
+}
+.menu ul .list-2{
+    position: relative;
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    height: 56.6px;
+    line-height: 56.6px;
+    width: 100px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.63em;
+}
+.menu ul .list-3{
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    height: 56.6px;
+    line-height: 56.6px;
+    width: 180px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.63em;
+}
+.menu ul .list-4{
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    height: 56.6px;
+    line-height: 56.6px;
+    width: 125px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.63em;
+}
+.menu ul .list-5{
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    height: 56.6px;
+    line-height: 56.6px;
+    width: 105px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.63em;
+}
+.menu ul .list-6{
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    height: 56.6px;
+    line-height: 56.6px;
+    width: 150px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.63em;
+}
+.menu ul .list-7{
+    text-align: left;
+    /*border: 1px solid yellow;*/
+    height: 56.6px;
+    line-height: 56.6px;
+    width: 190px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.63em;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-left: 6px;
+}
+.menu ul li a:hover{
+    background-color: white;
+    color: rgb(190, 16, 17);
+    
+}
+.menu ul ul{
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    display: none;
+	
+}
+.menu ul ul li a{
+    color: rgb(190, 16, 17);
+    text-align: left;
+    font-size: 0.7em;
+}
+/*--------------------for Eat option------------------------------------------*/
+.menu ul .list-2:hover > ul{
+    display: block;
+}
+.list-2 ul li a {
+    line-height: 50px;
+}
+.list-2 ul li a:hover{
+    color: dimgray;
+    
+} 
+.list-2-child-option{
+    border-bottom: 1px solid rgba(0,0,0,0.07);;
+}
+.list-2-child-title{
+    font-size: 1.4em;
+    padding-left: 34px;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+.img-icon{
+    height: 47px;
+    margin-bottom: -17px;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+/*--------------------for Open Door option------------------------------------------*/
+.menu ul .list-3:hover > ul{
+    display: block;
+}
+.list-3 ul li a {
+    line-height: 50px;
+}
+.list-3 ul li a:hover{
+    color: dimgray;
+    
+} 
+.list-3-child-option{
+    border-bottom: 1px solid lightgrey;
+}
+.list-3-child-title{
+    font-size: 1.5em;
+    padding-left: 34px;
+    border-bottom: 1px solid lightgrey;
+}
+.img-icon{
+    height: 47px;
+    margin-bottom: -17px;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+/*--------------------for Learn option------------------------------------------*/
+.menu ul .list-4:hover > ul{
+    display: block;
+}
+.list-4 ul li a {
+    line-height: 50px;
+}
+.list-4 ul li a:hover{
+    color: dimgray;
+    
+} 
+.list-4-child-option{
+    border-bottom: 1px solid lightgrey;
+}
+.list-4-child-title{
+    font-size: 1.5em;
+    padding-left: 34px;
+    border-bottom: 1px solid lightgrey;
+}
+.img-icon{
+    height: 47px;
+    margin-bottom: -17px;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+/*--------------------for Play option------------------------------------------*/
+.menu ul .list-5:hover > ul{
+    display: block;
+}
+.list-5 ul li a {
+    line-height: 50px;
+}
+.list-5 ul li a:hover{
+    color: dimgray;
+    
+} 
+.list-5-child-option{
+    border-bottom: 1px solid lightgrey;
+}
+.list-5-child-title{
+    font-size: 1.5em;
+    padding-left: 34px;
+    border-bottom: 1px solid lightgrey;
+}
+.img-icon{
+    height: 47px;
+    margin-bottom: -17px;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+/*--------------------for Careers option------------------------------------------*/
+.menu ul .list-6:hover > ul{
+    display: block;
+}
+.list-6 ul li a {
+    line-height: 50px;
+}
+.list-6 ul li a:hover{
+    color: dimgray;
+    
+} 
+.list-6-child-option{
+    border-bottom: 1px solid lightgrey;
+}
+.list-6-child-title{
+    font-size: 1.5em;
+    padding-left: 34px;
+    border-bottom: 1px solid lightgrey;
+}
+.img-icon{
+    height: 47px;
+    margin-bottom: -17px;
+    padding-left: 33px;
+    padding-right: 25px;
+}

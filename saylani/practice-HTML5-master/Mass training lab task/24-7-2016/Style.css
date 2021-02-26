@@ -1,0 +1,72 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+.parent{
+	width:100%;
+	height:auto;
+	//border:2px solid gray;
+}
+.child1{
+	margin:120px auto 10px auto;
+	width:22%;
+	height:auto;
+	//border:2px solid red;
+	min-width:180px;
+}
+.image1{
+	width:100%;
+	height:auto;
+}
+.child2{
+	position:;
+	padding:0px 0px 0px 5px;
+	margin:-3.2% auto 0px 56%;
+	width:7%;
+	height:auto;
+	//border:2px solid yellow;
+}
+.text1{
+	font-family:arial;
+	font-size:18px;
+	color:blue;
+}
+.child3{
+	margin:20px auto 10px auto;
+	width:55%;
+	height:50px;
+	//border:2px solid black;
+	padding:auto;
+}
+.search-engin{
+	z-index: 6;
+	padding:5px;
+	width:100%;
+	height:39px;
+	font-size:1em;
+}
+.mic{
+	//border:1px solid green;
+	position:relative;
+	width:30px;
+	height:;
+	top:-34px;
+	margin-left:95%;
+}
+.search-engin:hover{
+	border:1px solid gray;
+}
+.child4{
+	margin:20px auto 0px auto;
+	width:53%;
+	height:auto;
+	//border:2px solid green;
+}
+.ref1{
+}
+.day1{
+	margin:10px 10px 10px 10px;
+}
+.day1:hover{
+	box-shadow:0px 3px 5px gray;
+}

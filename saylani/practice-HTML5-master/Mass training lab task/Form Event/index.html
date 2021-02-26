@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="background">
+        <header class="header">Order Registration Form</header>
+    <div class="parent">
+        
+        <div class="child">
+            <form action="order.html">
+               <table class="table1">
+                    <tr>
+                        <td class="text1">User Name:</td>
+                        <td class="inout-box"><input id="inputName" class="input1" type="text" name="name" placeholder="your name"/></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">Email:</td>
+                        <td class="inout-box"><input class="input4" type="email" name="email" placeholder="example@gmail.com"/></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">Password:</td>
+                        <td class="inout-box"><input class="input1" type="password" name="password" placeholder="password"/></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">Address:</td>
+                        <td class="inout-box"><input class="input5" type="text" name="address" placeholder="Address"/></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">Date of Birth:</td>
+                        <td class="inout-box"> <input class="input3" type="date" name="date" /></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">City:</td>
+                        <td class="inout-box">
+                            <select class="input6" name="devices">
+                                <option value="khi">Karachi</option>
+                                <option value="isl">Islamabad</option>
+                                <option value="lhr">Lahore</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text1">State:</td>
+                        <td class="inout-box"><input class="input7" type="text" name="state" /></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">Zip:</td>
+                        <td class="inout-box"><input class="input8" type="text" name="zip" /></td>
+                    </tr>
+                    <tr>
+                        <td class="text1">Magazine:</td>
+                        <td class="inout-box">
+                            <select class="input9"  name="devices">
+                                <option value="khi">Newsweek</option>
+                                <option value="isl">Time</option>
+                                <option value="lhr">TV Guide</option>
+                                <option value="lhr">Fortune</option>
+                            </select>
+                        </td>
+                    </tr>
+            </table><br/>
+            <label class="text2">
+                Additional Comments:<br/>
+                <textarea name="comments" class="input10" cols="30" rows="10" placeholder="your comments"></textarea>
+            </label><br/><br/>
+            <!--<label class="text2">
+                Upload your profile picture:<br/>
+                <input class="input11" type="file" name="profile"/><br/>
+                <input class="input12" type="submit" value="Upload"/>
+            </label><br/><br/>-->
+                <button class="input13"  onclick="userOrder()">Send Your Order</button>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

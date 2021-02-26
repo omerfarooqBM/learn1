@@ -1,0 +1,112 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+.parent{
+	width:700px;
+	height:auto;
+	//border:2px solid green;
+	margin:70px auto 0px auto;
+}
+.travel-image{
+	width:150px;
+	margin-left:60%;
+}
+.child1{
+	width:700px;
+	height:auto;
+	//border:2px solid blue;
+	margin:0px auto 0px auto;
+	border-bottom:1px solid black;
+	border-top:2px solid black;
+}
+.list1{
+	display: inline-block; 
+}
+.link1{
+    cursor: pointer;
+	text-decoration:none;
+	font-size:18px;
+	margin-left:40px;
+	color:black;
+	font-family:arial;
+	font-weight:;
+}
+.link1:hover{
+	color:red;
+	text-shadow:0px 2px 3px gray;
+}
+.parent-1{
+	width:70%;
+	height:700px;
+	//border:2px solid green;
+	//margin:0px auto 0px auto;
+}
+.child2{
+	width:700px;
+	height:320px;
+	//border:2px solid blue;
+	margin:30px auto 0px auto;
+	background-image:url("images/centerimage.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 320px;
+}
+.text1{
+    width:700px;
+    margin:0px auto 0px auto;
+	text-align:center;
+	font-size:17px;
+	font-family:monospace;
+	color:gray;
+}
+.text2{
+	color:gray;
+	font-size:18px;
+	font-family:monospace;
+	text-align:center;
+	margin:40px auto 0px auto;
+	width:350px;
+	border:1px solid gray;
+	box-shadow:0px 1px 1px 1px gray;
+	padding:30px;
+}
+.frame1{
+    margin-left:140px;
+
+}
+.child3{
+	width:700px;
+	height:320px;
+	//border:2px solid blue;
+	margin:30px auto 0px auto;
+	background-image:url("images/PhilippinesTravel-Packages.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 320px;
+}
+.child4{
+	width:700px;
+	height:320px;
+	//border:2px solid blue;
+	margin:30px auto 0px auto;
+	background-image:url("images/activity1320x742.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 320px;
+}
+.child5{
+	width:700px;
+	height:320px;
+	//border:2px solid blue;
+	margin:30px auto 0px auto;
+	background-image:url("images/paris84f1d68287e2639a85d9ff0000167a3d.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 320px;
+}
+.child6{
+	width:700px;
+	height:320px;
+	//border:2px solid blue;
+	margin:30px auto 0px auto;
+	background-image:url("images/sunset-plane.png");
+	background-repeat:no-repeat;
+	background-size:100% 320px;
+}

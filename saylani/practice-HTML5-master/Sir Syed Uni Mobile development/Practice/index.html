@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h3>Image Event using a tag and using JavaScript.</h3>
+    <a href="JavaScript:void(0)" onClick="imgEvent()">
+        <img width="400" height="250" src="images/1.png">
+    </a>
+
+    <h3>Image Event using JavaScript.</h3>
+    <img width="100" height="50" alt="Image Event" 
+    title="Image Event" onClick="imgEvent1()" src="images/2.png"/>
+
+    <h3>Button Event using input tag and JavaScript.</h3>
+    <input type="button" value="Click Me" id="inptButn" onClick="inputEvent()"/>
+
+    <h3>Button Event using input tag and JavaScript function</h3>
+    <input type="button" value="Function" id="inptButn" onClick="func()"/>
+
+    <h3>MouseOver & MouseOut Event using Img tag and JavaScript.</h3>
+    <img width="300" height="200" src='images/4.jpg' onmouseout="src='images/4.jpg'" onMouseOver="src='images/3.jpg'"/>
+    
+    <h3>MouseOver & MouseOut Link Event using a tag and inline JavaScript.</h3>
+    <a href="index.html" id="color" onMouseover="colorChange()" onMouseOut="colorDefault()">Home Page</a>
+
+    <h3>onFocus & onBlur Event using Input tag and JavaScript.</h3>
+    <label>
+        <span>Email:</span>
+        <input type="text" size="30" id="bckColor" onFocus="bckColor()"  onBlur="bckDefualt()"/>
+    </label>
+
+    <h3>onSubmit Event using Input tag and JavaScript.</h3>
+    <form onSubmit="checkAddress('email');">
+        <span>Email:</span>
+        <input type="email" id="email" onFocus="emailBckColor()"  onBlur="emailBckDefualt()"/>
+        <input type="submit" value="Submit"/>
+    </form>
+
+    <h3>Field Values Event using Input tag and JavaScript.</h3>
+    <form>
+        <span>ZIP:</span><br>
+        <input type="text" id="zip" onBlur="fillCity(); zipBckDefualt();" onfocus="zipBckColor()"/><br>
+        <span>City:</span><br>
+        <input type="text" id="city"/>
+    </form>
+
+    <h3>Reading and setting paragraph text</h3>
+    <p id="slowLoris">
+        Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus.
+        <a href="javascript:void(0);" onClick="expandLoris();"><em>Click for more.</em></a>
+    </p>
+    <h3>List appear on the page usnig Click button.</h3>
+    <div id="nameList">   
+        <!--<ol>
+           <li>Salman</li>
+           <li>Waseem</li>
+           <li>Bilal</li>
+           <li>Hussam</li>
+        </ol>-->
+    </div>
+    <input id="inptButn" type="button" value="Click Me" onclick="nameList()"/>
+
+    <h3>Manipulating images and text and hidden onClick</h3>
+    <a href="JavaScript:void(0)" id="hide" onClick="makeInvisible()">
+        <img width="370"  height="250" src="images/1.png"/>
+    </a>
+    <h3>Manipulating images and text and Rotate onClick</h3>
+    <div href="JavaScript:void(0)" id="rot" onClick="rotateImg()">
+        <img width="300"  height="200" src="images/2.png"/>
+    </div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+#logo{
+	width:280px;
+	height:180px;
+	margin-left:40%;
+	margin-top:80px;
+}
+#p{
+	position:absolute;
+	color: #6495ED;
+	font-family:arial;
+	font-size:17px;
+	left:765px;
+	top:273px;
+	
+}
+.search{
+	position:absolute;
+	width:580px;
+	height:15px;
+	font-size:17px;
+	margin-left:380px;
+	top:320px;
+	padding:10px;
+	overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+	font-family: arial,sans-serif;
+}
+
+.mic{
+	position:relative;
+	left:945px;
+	padding: 15px;
+    background-image: url("mic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.button{
+	outline: none;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    opacity: 0.7;
+    border: 1px solid rgba(0,0,0,0);
+}
+.btn:hover{
+    opacity: 1;
+    border-color:#C6C6C6;
+}
+.buttons{
+	position:absolute;
+	width:25%;
+	margin-top:30px;
+	margin-left:550px;
+	
+}
+
+.menu{
+	text-align:right;
+	margin-right:30px;
+}
+ul li{
+  display: inline-block; 
+  padding: 7px; 
+}
+li a:link{
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0,0,0,1);
+    opacity: 0.7;
+}
+.disabled-link{
+    opacity: 0.7;
+}
+li a:visited{
+    color: #000;
+}
+li:not(.disabled-link) a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+.icon{
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.notif,.profile{
+    border-radius: 50%;
+}
+.g-app{
+    background-image: url("apps.png");
+}
+.notif{
+    background-image: url("notifications.png");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size:65%;
+    background-position: 40% 40%;
+}
+.profile{
+    padding: 14px; 
+    background-image: url("pro.gif");
+}
+#urdu{
+	position:absolute;
+	margin-left:20px;
+	margin-top:40px;
+	width:200px;
+	font-family:arial;
+	font-size:15px;
+}
+#urdu a:link{
+    text-decoration: none;
+    display: inline-black;
+	color:blue;
+}

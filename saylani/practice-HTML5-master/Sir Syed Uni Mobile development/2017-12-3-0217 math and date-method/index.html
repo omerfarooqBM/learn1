@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Math and date</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <section>
+                <div class="class" id="feedback">
+                    <h3>Q.1:</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 box-1">
+                        <blockquote>
+                            <p>
+                                Write a program that takes a <b>Positive integer</b> from user & display the following in
+                                your browser.
+                                <ol>
+                                    <li>Number</li>
+                                    <li>Round off value of the number</li>
+                                    <li>Floor value of the number</li>
+                                    <li>Ceil value of the number</li>
+                                </ol>
+                            </p>
+                            <div class="col-md-1 ans">A: </div>
+                            <div class="col-md-10 ">
+                                <form name="myForm">
+                                    <div class="form-group ">
+                                        <label for="email">Enter positive number: </label><br />
+                                        <input class="form-control" id="pos" type="text" placeholder="Enter a positive number" />
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-11 col-md-offset-1">
+                                <button type="button" class="btn btn-success" onclick="positive()">Run</button>
+                                <button type="button" class="btn btn-info" onclick="positiveCode()">Code</button>
+                            </div>
+                            <br/>
+                            <div class="col-md-8 col-md-offset-2">
+                                <ol>
+                                    <li>Number <span id="l1"></span></li>
+                                    <li>Round off value <span id="l2"></span></li>
+                                    <li>Floor value of <span id="l3"></span></li>
+                                    <li>Ceil value of <span id="l4"></span></li>
+                                </ol>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="class" id="feedback">
+                    <h3>Q.2:</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 box-1">
+                        <blockquote>
+                            <p>
+                                Write a program that takes a <b>negative integer</b> from user & display the following in
+                                your browser.
+                                <ol>
+                                    <li>Number</li>
+                                    <li>Round off value of the number</li>
+                                    <li>Floor value of the number</li>
+                                    <li>Ceil value of the number</li>
+                                </ol>
+                            </p>
+                            <div class="col-md-1 ans">A: </div>
+                            <div class="col-md-10 ">
+                                <form name="myForm">
+                                    <div class="form-group ">
+                                        <label for="email">Enter negative number: </label><br />
+                                        <input class="form-control" id="neg" type="text" placeholder="Enter a positive number" />
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-11 col-md-offset-1">
+                                <button type="button" class="btn btn-success" onclick="negative()">Run</button>
+                                <button type="button" class="btn btn-info" onclick="negativeCode()">Code</button>
+                            </div>
+                            <br/>
+                            <div class="col-md-8 col-md-offset-2">
+                                <ol>
+                                    <li>Number <span id="l11"></span></li>
+                                    <li>Round off value <span id="l22"></span></li>
+                                    <li>Floor value of <span id="l33"></span></li>
+                                    <li>Ceil value of <span id="l44"></span></li>
+                                </ol>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="class" id="feedback">
+                    <h3>Q.3:</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 box-1">
+                        <blockquote>
+                            <p>
+                                Write a program that takes a <b>positive floating point</b> from user & display the following
+                                in your browser.
+                                <ol>
+                                    <li>Number</li>
+                                    <li>Round off value of the number</li>
+                                    <li>Floor value of the number</li>
+                                    <li>Ceil value of the number</li>
+                                </ol>
+                            </p>
+                            <div class="col-md-1 ans">A: </div>
+                            <div class="col-md-10 ">
+                                <form name="myForm">
+                                    <div class="form-group ">
+                                        <label for="email">Enter floating number: </label><br />
+                                        <input class="form-control" id="float" type="text" placeholder="Enter a positive number" />
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-11 col-md-offset-1">
+                                <button type="button" class="btn btn-success" onclick="floating()">Run</button>
+                                <button type="button" class="btn btn-info" onclick="floatingCode()">Code</button>
+                            </div>
+                            <br/>
+                            <div class="col-md-8 col-md-offset-2">
+                                <ol>
+                                    <li>Number <span id="l111"></span></li>
+                                    <li>Round off value <span id="l222"></span></li>
+                                    <li>Floor value of <span id="l333"></span></li>
+                                    <li>Ceil value of <span id="l444"></span></li>
+                                </ol>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="class" id="feedback">
+                    <h3>Q.4:</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 box-1">
+                        <blockquote>
+                            <p>
+                                Write a program that takes a <b>negative floating point</b> from user & display the following
+                                in your browser.
+                                <ol>
+                                    <li>Number</li>
+                                    <li>Round off value of the number</li>
+                                    <li>Floor value of the number</li>
+                                    <li>Ceil value of the number</li>
+                                </ol>
+                            </p>
+                            <div class="col-md-1 ans">A: </div>
+                            <div class="col-md-10 ">
+                                <form name="myForm">
+                                    <div class="form-group ">
+                                        <label for="email">Enter negative floating number: </label><br />
+                                        <input class="form-control" id="negFloat" type="text" placeholder="Enter a positive number" />
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-11 col-md-offset-1">
+                                <button type="button" class="btn btn-success" onclick="negFloating()">Run</button>
+                                <button type="button" class="btn btn-info" onclick="negFloatingCode()">Code</button>
+                            </div>
+                            <br/>
+                            <div class="col-md-8 col-md-offset-2">
+                                <ol>
+                                    <li>Number <span id="l1111"></span></li>
+                                    <li>Round off value <span id="l2222"></span></li>
+                                    <li>Floor value of <span id="l3333"></span></li>
+                                    <li>Ceil value of <span id="l4444"></span></li>
+                                </ol>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="class" id="feedback">
+                    <h3>Q.5:</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 box-1">
+                        <blockquote>
+                            <p>
+                                Write a program that displays the absolute value of a number. 
+                                E.g. absolute value of -4 is 4 & absolute value of 5 is 5
+                            </p>
+                            <div class="col-md-1 ans">A: </div>
+                            <div class="col-md-10 ">
+                                <form name="myForm">
+                                    <div class="form-group ">
+                                        <label for="email">Your absolute value: </label><br />
+                                        <input class="form-control" id="abs" type="text" placeholder="Enter a absolute value" />
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-11 col-md-offset-1">
+                                <button type="button" class="btn btn-success" onclick="absolute()">Run</button>
+                                <button type="button" class="btn btn-info" onclick="absoluteCode()">Code</button>
+                            </div>
+                            <br/>
+                            <div class="col-md-8 col-md-offset-2">
+                               <h3>The absolute value of <span id="absolute1"></span> is <span id="absolute2"></span></h3>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="class" id="feedback">
+                    <h3>Q.6:</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 box-1">
+                        <blockquote>
+                            <p>
+                                Write a program that simulates a dice using random() method
+                                of JS Math class. Display the value of dice in your browser.
+                            </p>
+                            <div class="col-md-1 ans">A: </div>
+                            <div class="col-md-11 col-md-offset-1">
+                                <button type="button" class="btn btn-success" onclick="dice()">Run</button>
+                                <button type="button" class="btn btn-info" onclick="diceCode()">Code</button>
+                            </div>
+                            <br/>
+                            <div class="col-md-8 col-md-offset-2">
+                               <h3>Random dice value <span id="dice1"></span></h3>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="class" id="feedback">
+                    <h3>Q.7:</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 box-1">
+                        <blockquote>
+                            <p>
+                                Write a program that simulates a coin toss using random()
+                                method of JS Math class. Display the value of coin in your
+                                browser.
+                            </p>
+                            <div class="col-md-1 ans">A: </div>
+                            <div class="col-md-11 col-md-offset-1">
+                                <button type="button" class="btn btn-success" onclick="dice1()">Run</button>
+                                <button type="button" class="btn btn-info" onclick="dice1Code()">Code</button>
+                            </div>
+                            <br/>
+                            <div class="col-md-8 col-md-offset-2">
+                               <h3>Random dice value <span id="dice2"></span></h3>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+#logo{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+#link:hover{
+    background-color: white;
+    color: black;
+}
+.wel{
+    text-shadow: 2px 3px 6px gray;
+    font-weight: bold;
+}
+.header{
+    border: 2px solid red;
+    position: relative;
+    top: 50px
+}

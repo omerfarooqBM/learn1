@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.lab-task{
+    width: 100%;
+    height: auto;
+    /*border: 2px solid red;*/
+    margin: 0px auto;
+    position: relative;
+    /*top: 50px;*/
+    background: -webkit-linear-gradient(lightblue,lightcyan);
+}
+.heading{
+    width: 100%;
+    height: auto;
+    /*border: 1px solid blue;*/
+    text-align: center;
+    padding-top: 18px;
+    /*padding-bottom: 10px;*/
+    line-height: 50px;
+}
+.heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6em;
+    text-shadow: 1px 3px 5px gray;
+}
+.heading h3{
+    /*margin-top: 20px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    text-shadow: 0px 2px 4px dodgerblue;
+    color: darkblue;
+}
+.task{
+    /*border: 2px solid blue;*/
+    width: 85%;
+    height: auto;
+    margin: 0px auto;
+}
+.question{
+    /*border: 1px solid red;*/
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    line-height: 20px;
+}
+.question .number{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: black;
+    font-weight: bold;
+    margin-left: 1%;
+}
+.question .q{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: black;
+    margin-left: 1%;
+    font-weight: normal;
+}
+.long-q{
+    padding-left: 24px;
+}
+#q-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: black;
+    font-weight: normal;
+}
+.num{
+    vertical-align: top;
+}
+.answer{
+    /*border: 1px solid red;*/
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+.ans{
+    vertical-align: top;
+}
+.ansr{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1;
+    font-weight: bold;
+}
+.a-1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1;
+    font-weight: bold;
+}
+.anser-1{
+    padding-left: 45px;
+}
+.anser-2{
+    padding-left: 30px;
+}
+#q-1 ol{
+    list-style-type: lower-alpha;
+    font-size: 0.9em;
+    margin-left: 8%;
+}
+.action{
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5.7%;
+    color: black;
+    background:-webkit-linear-gradient(lightblue,darkcyan);
+    border: hidden;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    outline: 0px;
+}
+.action:hover{
+    background: darkcyan;
+    transition: 0.5s;
+    box-shadow: 0px 2px 4px gray;
+    cursor: pointer;
+    color: white;
+}
+#display{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+     margin-left: 5.7%;
+}
+#year{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+     margin-left: 5.7%;
+}
+.up-button{
+    position: fixed;
+    top: 88%;
+    width: 50px;
+    height: auto;
+    /*border: 2px solid red;*/
+    margin-left: 92%;
+    border-radius: 50%;
+}
+.up-button a{
+    color: gray;
+    font-size: 3.5em;
+}
+.up-button a:hover{
+    color: blue;
+    transition: 0.5s;
+    text-shadow: 1px 3px 6px gray, -1px -3px 6px gray;
+}

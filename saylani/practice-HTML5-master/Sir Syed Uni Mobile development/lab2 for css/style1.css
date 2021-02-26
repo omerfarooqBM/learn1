@@ -1,0 +1,234 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#background{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width:100%;
+    height: auto;
+    background-image: url("images/computer.jpg");
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    background-size: 100% 900px;
+}
+.parent{
+    /*background-color: rgba(153,153,153,0.6);*/
+    width: 45%;
+    height: auto;
+    /*border: 2px solid white;*/
+    margin: 0px auto 0px auto;
+    border-radius: 5px;
+    padding-top:20px;
+    padding-left:50px;
+}
+.header{
+    width: 58%;
+    text-align: center;
+    height:auto;
+    padding: 5px;
+    margin: 0px auto 0px auto;
+    /*border: 1px solid rgba(13,213,253,0.3);*/
+    border-radius: 5px;
+    font-size: 2.8em; 
+    color: lightskyblue;
+    text-shadow: 0px 2px 5px blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.table1{
+    border-collapse: separate;
+    border-spacing: 50px 0px;
+}
+.text1{
+    /*border:2px solid green;*/
+    width:150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+}
+.input1{
+    font-size: 16px; 
+  /*margin-left: 50px;*/
+  margin-top: 5px;
+  padding: 6px;
+  width:80%; 
+  border:0px;
+  outline: 0px; 
+  border-radius: 2px;
+}
+.input1:hover{
+    outline: 2px solid lightblue;
+}
+.input2{
+    font-size: 16px;
+  /*margin-left: 92px;*/
+  margin-top: 5px;
+  padding: 6px;
+  width:80%;
+  border:0px;
+  outline: 0px; 
+  border-radius: 2px;  
+}
+.input2:hover{
+    outline: 2px solid lightblue;
+}
+.input3{
+    font-size: 16px;
+  /*margin-left: 72px;*/
+  margin-top: 5px;
+  padding: 5px;
+  width:45%;
+  border:0px;
+  outline: 0px;   
+  border-radius: 2px;
+}
+.input3:hover{
+    outline: 2px solid lightblue;
+}
+.input4{
+    font-size: 16px;
+  /*margin-left: 93px;*/
+  margin-top: 5px;
+  padding: 6px;
+  width:80%;
+  border:0px;
+  outline: 0px;   
+  border-radius: 2px;
+}
+.input4:hover{
+    outline: 2px solid lightblue;
+}
+.input5{
+    font-size: 16px;
+  /*margin-left: 105px;*/
+  margin-top: 5px;
+  padding: 6px;
+  width:80%;
+  border:0px;
+  outline: 0px;   
+  border-radius: 2px;
+}
+.input5:hover{
+    outline: 2px solid lightblue;
+}
+.input6{
+    font-size: 16px;
+  /*margin-left: 139px;*/
+  margin-top: 5px;
+  padding: 6px;
+  width:40%;
+  border:0px;
+  outline: 0px;   
+  border-radius: 2px;
+}
+.input6:hover{
+    outline: 2px solid lightblue;
+}
+.input7{
+    font-size: 16px;
+  /*margin-left: 128px;*/
+  margin-top: 5px;
+  padding: 6px;
+  width:36%;
+  border:0px;
+  outline: 0px;   
+  border-radius: 2px;
+}
+.input7:hover{
+    outline: 2px solid lightblue;
+}
+.input8{
+    font-size: 16px;
+  /*margin-left: 145px;*/
+  margin-top: 5px;
+  padding: 6px;
+  width:36%;
+  border:0px;
+  outline: 0px;   
+  border-radius: 2px;
+}
+.input8:hover{
+    outline: 2px solid lightblue;
+}
+.input9{
+    font-size: 16px;
+  /*margin-left: 93px;*/
+  margin-top: 5px;
+  padding: 6px;
+  width:40%;
+  border:0px;
+  outline: 0px;   
+  border-radius: 2px;
+}
+.input9:hover{
+    outline: 2px solid lightblue;
+}
+.text2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left:50px; 
+}
+.input10{
+    font-size: 16px;
+  margin-left: 50px;
+  margin-top: 5px;
+  padding: 6px;
+  width:75%;
+  height: 70px;
+  border:0px;
+  outline: 0px;   
+  border-radius: 2px;
+}
+.input10:hover{
+    outline: 2px solid lightblue;
+    color:darkcyan;
+}
+.inout-box{
+    /*border:2px solid red;*/
+    width: 70%;
+}
+.input11{
+    margin-left: 50px;
+  margin-top: 5px;
+}
+.input12{
+    margin-left: 50px;
+  margin-top: 5px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 30px;
+  background-color: lightseagreen;
+  border:2px solid gray;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.input12:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+    transition: 0.3s;
+    border:2px solid darkgoldenrod;
+}
+.input13{
+    margin-left: 50px;
+  margin-top: 5px;
+  padding: 10px 25px 10px 25px;
+  border-radius:30px;
+  background-color: lightseagreen;
+  border:2px solid gray;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+.input13:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+    transition: 0.3s;
+    border:2px solid darkgoldenrod;
+}

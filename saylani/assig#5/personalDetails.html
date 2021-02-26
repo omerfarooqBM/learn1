@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <style>
+      body{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #4CAF50;
+        }
+        </style>
+</head>
+<body>
+    <div style="width: 50%;margin-left: 300px;">
+        <ul>
+            <li><a href="accounts.html">Step 1: Accounts</a></li>
+            <li><a class="active" href="personalDetails.html">Step 2: Personal Details</a></li>
+            <li><a href="review.html">Step 3: Your Review</a></li>
+        </ul>
+    </div>
+    <div style="width: 40%; margin-left: 350px; margin-top: 20px;">
+      <form action="">
+        <fieldset>
+          <legend style="text-align: center;border: 1px solid black; padding-left: 30px;padding-right: 30px;font-size: 20px;">Personal Details</legend>
+          <p style="margin-left: 60px;">
+            <label for="Fname" style="font-weight: bold;">First Name</label><br>
+            <input type="text" name="Fname" id="Fname" size="50">
+          </p>
+          <p style="margin-left: 60px;">
+            <label for="Lname" style="font-weight: bold;">Last Name</label><br>
+            <input type="password" name="Lname" id="Lname" size="50">
+          </p>
+          <p style="margin-left: 60px;">
+              <label style="font-weight: bold;">CNIC</label><br>
+              <table style="margin-left: 60px;">
+                  <tr>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                      <td>-</td>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                      <td>-</td>
+                      <td style="border: 1px solid black; padding: 10px;"></td>
+                  </tr>
+              </table>
+          </p>
+          <table>
+            <p style="margin-left: 60px;">
+                <label for="socLink" style="font-weight: bold;">Social Link</label><br>
+                <input type="text" name="socLink" id="socLink" size="50" placeholder="Enter facebook/Linkedin profile link">
+              </p>
+            <tr>
+              <td><a href="" style="margin-left: 60px;"><img src="images/back.png" alt="" width="50%"></a></td>
+              <td><a href="" style="margin-left: 60px;"><img src="images/next.png" alt="" width="50%" ></a></td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </div>
+</body>
+</html>

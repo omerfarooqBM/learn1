@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <style>
+      body{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #4CAF50;
+        }
+        </style>
+</head>
+<body>
+    <div style="width: 50%;margin-left: 300px;">
+        <ul>
+            <li><a class="active" href="accounts.html">Step 1: Accounts</a></li>
+            <li><a href="personalDetails.html">Step 2: Personal Details</a></li>
+            <li><a href="review.html">Step 3: Your Review</a></li>
+        </ul>
+    </div>
+    <div style="width: 40%; margin-left: 350px; margin-top: 20px;">
+      <form action="">
+        <fieldset>
+          <legend style="text-align: center;border: 1px solid black; padding-left: 30px;padding-right: 30px;font-size: 20px;">Accounts</legend>
+          <p>
+            <label for="Email" style="font-weight: bold;">Email Address</label><br>
+            <input type="email" name="Email" id="Email" size="50" placeholder="Email Address">
+          </p>
+          <p>
+            <label for="Pass" style="font-weight: bold;">Password</label><br>
+            <input type="password" name="Pass" id="Pass" size="50" placeholder="Password">
+          </p>
+          <p>
+            <label for="cnfrmPass" style="font-weight: bold;">Confirm Password</label><br>
+            <input type="password" name="cnfrmPass" id="cnfrmPass" size="50" placeholder="Confirm password">
+          </p>
+          <table>
+            <tr>
+              <td><a href=""><img src="images/back.png" alt="" width="50%"></a></td>
+              <td><a href=""><img src="images/next.png" alt="" width="50%" ></a></td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </div>
+</body>
+</html>

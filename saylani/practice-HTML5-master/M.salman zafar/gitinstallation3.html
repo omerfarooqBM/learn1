@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="keyword" content="GIT,HTML5,CSS3"/>
+	<meta name="discription" content="What is git, how to install git, how to work in git, 
+	how to use commit in git, how to use push and pull request in git"/>
+	<meta http-equiv="refresh" content="60"/>
+	<meta name="auther" content="Salman zafar"/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Advanced Features</title>
+	<link  rel="stylesheet" href="listcss.css"/>
+	<style>
+		div{
+				text-family:arial;
+				border-radius: 10px;
+				background-color:#E6E6FA;
+				width: 600px;
+				padding: 20px;
+				border: 10px solid #FFDAB9;
+				margin: 55px;
+				-webkit-box-shadow: 0 3px 8px rgba(0,0,0, .25);
+		}
+		#butt{
+			width:100px;
+			height:40px;
+			position:relative;
+			top:50px;
+			left:1000px;
+			display: inline;
+			border-radius: 5px;
+			border: 2px solid #F5F5DC;
+			background: #F0FFFF;
+			padding:3px;
+			margin: 2px;
+			box-shadow: 1px 1px 1px #888888;
+		}
+		.pic{
+			width:300px;
+			height:200px;
+		}
+		.picbig{
+			position: absolute;
+			width:0px;
+			-webkit-transition:  width 0.3s linear 0s;
+			transition: width 0.3s linear 0s;
+			z-index:10;
+		}
+		.pic:hover + .picbig{
+			width:600px;
+		}
+	</style>
+</head>
+<body style="height:1300px">
+	<form class="headerx"></form>
+	<section  class="header" >
+		<font size="7" ><b>
+		<marquee scrollamount="5" id="img1" style="color:white">SKY NET</marquee></b></font>
+		
+		<br/>
+		<ul id="sample">
+			<li id="kid1"><a href="list.html">HOME</a></li>
+			<li id="kid1"><a href="git.html">GIT</a></li>
+			<li id="kid1"><a href="htmlfile.html">HTML</a></li>
+			<li id="kid1"><a href="css.html">CSS</a></li>
+			<li id="kid1"><a href="contact.html">About us</a></li>
+		</ul>
+	
+	</section>
+	<section id="img2" class="body">
+		<img src="images/git1.png" width="480" height="180"/><br><br>
+	</section>
+	<div>
+		<h3 style="color:blue">Adding a file</h3>
+			<figure>
+				<p>Let's create a text file just to give it a try.</p>
+				<img class="pic" src="images/i8.PNG" alt="pic8"/>
+				<img class="picbig" src="images/i8.PNG" alt="pic8"/>
+				<br/>
+				<figcaption>
+					And now what? Is that all? No! We have to tell Git to put this file in your repo,
+					<strong>explicitly.</strong> Git doesn't do anything that you don't want it to. If you have some spare
+					files or temp ones in your repo, Git will not be compatible with them, but will only
+					remind you that there are some files in your repo that are not under version control
+					(in the next chapter, we will see how to instruct Git to ignore them when necessary).<br/><br/>
+					Ok, back to the topic. I want <strong>MyFile.txt</strong> under the control of Git, so let's add it, as
+					shown here:
+				</figcaption>
+			</figure>
+			<figure>
+				<img class="pic" src="images/i9.PNG" alt="pic9"/>
+				<img class="picbig" src="images/i9.PNG" alt="pic9"/>
+				<br/>
+				<figcaption>
+					The <strong>git add</strong> command tells Git that we want it to take care of that file and check it
+					for future modifications.<br/>
+					Has Git obeyed us? Let's see.<br/>
+					Using the <strong>git status</strong> command, we can check the status of the repo, as shown in
+					the following screenshot:
+				</figcaption>
+			</figure>
+			<figure>
+				<img class="pic" src="images/i10.PNG" alt="pic10"/>
+				<img class="picbig" src="images/i10.PNG" alt="pic10"/>
+				<br/>
+				<figcaption>
+					As we can see, Git has accomplished its work as expected. In this image, we can read
+					words such as <strong>branch, master, commit and unstage.</strong> We will look at them briefly,
+					but for the moment, let's ignore them.
+				</figcaption>
+			</figure>
+			<h3 style="color:blue">Commit the added file</h3>
+			<figure>
+				<p>At this point, Git knows about <strong>MyFile.txt</strong>, but we have to perform another step
+				to fix the snapshot of its content. We have to commit it using the appropriate <strong>git
+				commit</strong> command. This time, we will add some flavor to our command, using the
+				<strong>--message (or -m)</strong> subcommand, as shown here:</p>
+				<img class="pic" src="images/i11.PNG" alt="pic11"/>
+				<img class="picbig" src="images/i11.PNG" alt="pic11"/>
+				<br/><br/>
+				<figcaption>
+					Press the Enter key.
+				</figcaption>
+				<img class="pic" src="images/i12.PNG" alt="pic12">
+				<img class="picbig" src="images/i12.PNG" alt="pic12">
+				<br/>
+			</figure>
+		</font>
+	</div>
+	<form >
+		<font size="5">
+			<a id="butt" href="gitinstallation4.html">Next Page</a>
+			<a id="butt" href="gitinstallation2.html">Back</a>
+		</font>
+	</form>
+	
+	
+	<form id="ref1" class="body2">
+		<font size="4">Create by: <b>Muhammad Salman Zafar</b><br>
+		Send email: <a href="mailto:m.salman.zafar292@gmail.com"><strong>Email</strong></a>.or
+		<br>Contact: +923422746280</font>
+		
+	</form>
+
+</body>
+</html>

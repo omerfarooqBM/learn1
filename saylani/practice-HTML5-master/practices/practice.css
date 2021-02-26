@@ -1,0 +1,69 @@
+#kid{
+	font-size:60px;
+	padding:500px;
+	margin: 1px;
+}
+#kid0{
+	font-size:25px;
+	padding:500px;
+	margin: 90px;
+}
+#parent{
+	/*border: 2px solid gray;*/
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+#kid1{
+	font-size:20px;
+	border: 2px solid white;
+	background: white;
+	padding:5px;
+	margin: 5px;
+	box-shadow: 1px 1px 1px #888888;
+}
+#kid2{
+	font-size:20px;
+	border: 2px solid white;
+	background: white;
+	padding:5px;
+	margin: 5px;
+	box-shadow: 1px 1px 1px #888888;
+}
+#kid3{
+	font-size:20px;
+	border: 2px solid white;
+	background: white;
+	padding:5px;
+	margin: 5px;
+	box-shadow: 1px 1px 1px #888888;
+}
+#kid4{
+	font-size:20px;
+	border: 2px solid white;
+	background: white;
+	padding:5px;
+	margin: 5px;
+	box-shadow: 1px 1px 1px #888888;
+}
+#kid5{
+	font-size:20px;
+	border: 2px solid white;
+	background: white;
+	padding:5px;
+	margin: 5px;
+	box-shadow: 1px 1px 1px #888888;
+}
+#kid6{
+	font-size:20px;
+	border: 2px solid white;
+	background: white;
+	padding:5px;
+	margin: 5px;
+	box-shadow: 1px 1px 1px #888888;
+}
+#kid7{
+	width:500px;
+	height:300px;
+	font-size:15px;
+	padding:3px;
+	margin: 1px;

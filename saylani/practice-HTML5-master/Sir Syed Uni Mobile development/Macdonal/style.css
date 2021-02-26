@@ -1,0 +1,419 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    position: fixed;
+    top: 0px;
+    z-index: 9;
+    box-shadow: 0px 5px 8px dimgray;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(190, 16, 17);
+}
+.header-child1{
+    background-image: url(images/logo-main.png);
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    background-size: 100% 125px;    
+    width: 121px;
+    height: 125px;
+    /*border: 2px solid blue;*/
+    float: left;
+    margin-left: 90px;
+}
+.header-child2{
+    width: 76.3%;
+    height: auto;
+    /*border: 2px solid blue;*/
+    float: right;
+    margin-top: -10px;
+}
+.list-box ul{
+    list-style: none;
+}
+.list-box ul .list-1{
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    height: 54.5px;
+    line-height: 54.5px;
+    width: 65px;
+    float: left;
+    color: rgb(190, 16, 17);
+    background-color: white;
+}
+.list-box ul .list-1:hover{
+    color: rgb(190, 16, 17);
+    background-color: white;
+    cursor: pointer
+}
+#icon1{
+    font-size: 2.1em;
+}
+.list-box ul .list-2{
+    position: relative;
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    height: 55.5px;
+    line-height: 55.5px;
+    width: 100px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.63em;
+}
+.list-box ul .list-3{
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    height: 55.5px;
+    line-height: 55.5px;
+    width: 180px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.63em;
+}
+.list-box ul .list-4{
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    height: 55.5px;
+    line-height: 55.5px;
+    width: 125px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.63em;
+}
+.list-box ul .list-5{
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    height: 55.5px;
+    line-height: 55.5px;
+    width: 105px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.63em;
+}
+.list-box ul .list-6{
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    height: 55.5px;
+    line-height: 55.5px;
+    width: 150px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.63em;
+}
+.list-box ul .list-7{
+    text-align: left;
+    /*border: 1px solid yellow;*/
+    height: 55.5px;
+    line-height: 55.5px;
+    width: 190px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.63em;
+}
+.list-box ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-left: 6px;
+}
+.list-box ul li a:hover{
+    background-color: white;
+    color: rgb(190, 16, 17);
+    
+}
+.list-box ul ul{
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    display: none;
+}
+.list-box ul ul li a{
+    color: rgb(190, 16, 17);
+    text-align: left;
+    font-size: 0.7em;
+}
+/*--------------------for Eat option------------------------------------------*/
+.list-box ul .list-2:hover > ul{
+    display: block;
+}
+.list-2 ul li a {
+    line-height: 50px;
+}
+.list-2 ul li a:hover{
+    color: dimgray;
+    
+} 
+.list-2-child-option{
+    border-bottom: 1px solid rgba(0,0,0,0.07);;
+}
+.list-2-child-title{
+    font-size: 1.4em;
+    padding-left: 34px;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+.img-icon{
+    height: 47px;
+    margin-bottom: -17px;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+/*--------------------for Open Door option------------------------------------------*/
+.list-box ul .list-3:hover > ul{
+    display: block;
+}
+.list-3 ul li a {
+    line-height: 50px;
+}
+.list-3 ul li a:hover{
+    color: dimgray;
+    
+} 
+.list-3-child-option{
+    border-bottom: 1px solid lightgrey;
+}
+.list-3-child-title{
+    font-size: 1.5em;
+    padding-left: 34px;
+    border-bottom: 1px solid lightgrey;
+}
+.img-icon{
+    height: 47px;
+    margin-bottom: -17px;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+/*--------------------for Learn option------------------------------------------*/
+.list-box ul .list-4:hover > ul{
+    display: block;
+}
+.list-4 ul li a {
+    line-height: 50px;
+}
+.list-4 ul li a:hover{
+    color: dimgray;
+    
+} 
+.list-4-child-option{
+    border-bottom: 1px solid lightgrey;
+}
+.list-4-child-title{
+    font-size: 1.5em;
+    padding-left: 34px;
+    border-bottom: 1px solid lightgrey;
+}
+.img-icon{
+    height: 47px;
+    margin-bottom: -17px;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+/*--------------------for Play option------------------------------------------*/
+.list-box ul .list-5:hover > ul{
+    display: block;
+}
+.list-5 ul li a {
+    line-height: 50px;
+}
+.list-5 ul li a:hover{
+    color: dimgray;
+    
+} 
+.list-5-child-option{
+    border-bottom: 1px solid lightgrey;
+}
+.list-5-child-title{
+    font-size: 1.5em;
+    padding-left: 34px;
+    border-bottom: 1px solid lightgrey;
+}
+.img-icon{
+    height: 47px;
+    margin-bottom: -17px;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+/*--------------------for Careers option------------------------------------------*/
+.list-box ul .list-6:hover > ul{
+    display: block;
+}
+.list-6 ul li a {
+    line-height: 50px;
+}
+.list-6 ul li a:hover{
+    color: dimgray;
+    
+} 
+.list-6-child-option{
+    border-bottom: 1px solid lightgrey;
+}
+.list-6-child-title{
+    font-size: 1.5em;
+    padding-left: 34px;
+    border-bottom: 1px solid lightgrey;
+}
+.img-icon{
+    height: 47px;
+    margin-bottom: -17px;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+/*--------------------for Pic-Container------------------------------------------*/
+.pic-container{
+    position: relative;
+    top: 55px;
+    width: 100%;
+    height: 607px;
+    background-image: url(images/Happy-Meal-Trolls.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 640px;
+}
+.mid-conrtainer {
+    width: 790px;
+    height: 158px;
+    /*border: 1px solid red;*/
+    margin-top: -103px ;
+    margin-left: 23%;
+    position: relative;
+    top: 0px; 
+}
+.image1{
+    width:250px;
+    height: 158px;
+    /*border: 1px solid blue;*/
+    background-image: url(images/Share-Box-Chicken-n-fish-Widget.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 158px;
+    display: inline-block;
+}
+.image2{
+    width:250px;
+    height: 158px;
+    /*border: 1px solid blue;*/
+    background-image: url(images/Open-door.png);
+    background-repeat: no-repeat;
+    background-size: 100% 158px;
+    display: inline-block;
+
+}
+.image3{
+    width:250px;
+    height: 158px;
+    /*border: 1px solid blue;*/
+    background-image: url(images/Happy-Meal-Trolls-Widget.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 158px;
+    display: inline-block;
+}
+.pic2-container{
+    width: 100%;
+    height: 45px;
+    background-image: url(images/widget-back.png);
+    background-repeat: no-repeat;
+    background-size: 100% 45px;
+    position: relative;
+}
+/*--------------------for Pic-Container2------------------------------------------*/
+.tamato{
+    width: 100%;
+    height: 375px;
+    /*border: 2px solid red;*/
+}
+.tamato-img1{
+    background-image: url(images/crunchy.png);
+    background-repeat: no-repeat;
+    background-size: 100% 90px;
+    width:640px;
+    height: 90px;
+    /*border: 1px solid red;*/
+    margin-left: 15%;
+    margin-top: 35px;
+    position: relative;
+}
+.tamato-text{
+    width:405px;
+    height: 120px;
+    /*border: 1px solid red;*/
+    margin-left: 15%;
+    padding-top: 10px;
+    display: inline-block;
+    position: relative;
+    top:-125px;
+}
+.tamato-img2{
+     background-image: url(images/vegetables.png);
+    background-repeat: no-repeat;
+    background-size: 100% 260px;
+    width:545px;
+    height: 260px;
+    /*border: 1px solid red;*/
+    display: inline-block;
+    margin-top: -30px;
+    position: relative;
+    margin-left: -5px;
+    
+}
+/*--------------------for Footer------------------------------------------*/
+.footer{
+    width: 100%;
+    height: 135px;
+    background-color: rgb(190, 16, 17);
+}
+.footer-child1{
+    width: 325px;
+    height: 134px;
+    line-height: 75px;
+    border:1px solid red;
+     /*display: inline-block;*/
+     float: left;
+     text-align: center;
+     color: white;
+}
+.footer-child2{
+    width: 700px;
+    height: 134px;
+    border:1px solid red; 
+    float: left;
+    padding-left: 65px;
+}
+.footer-child2 ul{
+    list-style: none;
+}
+.footer-child2 ul li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-left: 1px solid white;
+}
+#faq{
+    display: inline-block;
+    margin-top: 38px;
+    margin-left: 10px;
+    border-left: hidden; 
+}
+.footer-child2 ul li a{
+    color: white;
+    padding: 12px 12px 12px 12px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.footer-child2 ul li a:hover{
+    background-color: white;
+    color: orange;
+    text-decoration: none;
+}
+.footer-child3{
+    width: 160px;
+    height: 134px;
+    border:1px solid red;
+    float: left;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    font-family: sans-serif;
+    font-size: 0.9em;
+}

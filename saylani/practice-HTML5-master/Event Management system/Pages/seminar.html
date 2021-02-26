@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Event Managment System</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <div class="container-flex Main-div">
+        <div class="container-flex">
+            <nav class="navbar header ">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand logo" href="#">EMS</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active "><a class=" link-1" href='../index.html'>Home</a></li>
+                        <li><a class=" link-1" href="./gallery.html">Gallery</a></li>
+                        <li><a class=" link-1" href="./Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="text-center">
+                <h2 class="heading">Seminar Events</h2>
+                <br/>
+                <br/>
+            </div>
+        </div>
+        <div class="container ">
+            <section>
+                <div class="class" id="feedback">
+                    <h2>Seminar 2017</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 ">
+                        <blockquote>
+                            <p>
+                                The Management Division Seminar Series features weekly presentations from distinguished visitors as well as the division's
+                                own faculty. Our current schedule for this semester is listed below. Notices about the seminars
+                                are distributed weekly by e-mail to the seminar mailing list.
+                            </p>
+                            <p>
+                                eminar management has never been so easy. Using the Classroom Manager you can organise coaching and face-to-face seminars
+                                from catalogue entry to room reservation. At any time, thanks to web access.
+                            </p>
+
+                        </blockquote>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <div class="class" id="feedback">
+                <h2>Register Your Seminar Event</h2>
+            </div>
+            <br/>
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label for="firstName" class="col-sm-2 control-label">Full Name</label>
+                    <div class="col-sm-8">
+                        <input type="text" id="firstName" placeholder="Full Name" class="form-control" autofocus>
+                        <span class="help-block">Last Name, First Name, eg.: Smith, Harry</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-8">
+                        <input type="email" id="email" placeholder="Email" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-sm-2 control-label">Password</label>
+                    <div class="col-sm-8">
+                        <input type="password" id="password" placeholder="Password" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Chairs" class="col-sm-2 control-label">Chairs</label>
+                    <div class="col-sm-8">
+                        <input type="number" id="Chairs" placeholder="Number of Chairs" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Timing" class="col-sm-2 control-label">Timing</label>
+                    <div class="col-sm-8">
+                        <input type="text" id="Timing" placeholder="Start also Write End" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="birthDate" class="col-sm-2 control-label">Date of Birth</label>
+                    <div class="col-sm-8">
+                        <input type="date" id="birthDate" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="country" class="col-sm-2 control-label">Country</label>
+                    <div class="col-sm-8">
+                        <select id="country" class="form-control">
+                            <option>Afghanistan</option>
+                            <option>Bahamas</option>
+                            <option>Cambodia</option>
+                            <option>Denmark</option>
+                            <option>Ecuador</option>
+                            <option>Pakistan</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- /.form-group -->
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Gender</label>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio">Female
+                                </label>
+                            </div>
+                            <div class="col-sm-2">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio">Male
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.form-group -->
+
+                <div class="form-group">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">I accept <a href="#">terms</a>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.form-group -->
+                <div class="form-group">
+                    <div class="col-sm-2 col-sm-offset-2">
+                        <button type="submit" class="btn btn-success btn-block">Register</button>
+                    </div>
+                </div>
+            </form>
+            <!-- /form -->
+        </div>
+        <!-- ./container -->
+        <div class="container box4">
+            <div class="col-md-12">
+                <img class="stage" src="../images/stage.png" alt="Stage"/>
+                <div class="col-md-5 col-md-offset-4 Event">
+                    <h3>Celebrate Your Event</h3>
+                </div>            
+            </div>
+        </div>
+</body>
+
+</html>
